@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-image: linear-gradient(to right top, #3d35ed, #1c3ad5, #003bbc, #003aa1, #003786, #26367b, #333670, #3b3765, #4e3d66, #5d4367, #694b68, #74536a);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boop {
+    display: none;
+}
+
+.boop-container {
+    text-align: center;
+}
+
+#boop {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}

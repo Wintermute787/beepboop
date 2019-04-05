@@ -3,7 +3,7 @@ $(function () {
    var strArr = [];
 
    function numToStr(int){
-       for(var i =0; i < int; i++){
+       for(var i =0; i <= int; i++){
            strArr.push("" + i);
            
        }
@@ -14,7 +14,7 @@ $(function () {
        num = '';
        var word1 = "beep";
        var word2 = "boop";
-       var word3 = "I'm Sorry";
+       var word3 = "I'm Sorry Dave, I can not do that";
 
        for(var i = 0; i < strArr.length; i++){
            num = strArr[i];
@@ -38,12 +38,11 @@ $(function () {
         event.preventDefault();
         var number = parseInt($('input#boop').val());
 
-      
         strArr =[];
         numToStr(number);
         beepBoop(number);
         $("#boop-text").text(beepBoop(number));
 
-
+        $('.boop').show('slow');
     });
 });
