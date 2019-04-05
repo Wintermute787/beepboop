@@ -1,25 +1,20 @@
 $(function(){
 
-    function beepBoop(){
-        
-        for(var i =0; i < 100; i++){
-            if(i ===1 ){
-                console.log("beep");
-            }else if(i % 2 ===0){
-               console.log("boop");
-            }else if(i % 3 ===0){
-                console.log("I'm sorry Dave, I'm afraid I can't do that");
-            }else {
-                console.log(i);
-            }
+   function numberRange(int){
+       var numArr = [];
+       numArr.push(i);
+        for(var i = 0; i <= int; i ++){
+           
+         console.log(numArr);
         }
-    }
+   }
 
-    beepBoop();
-
+    numberRange(34);
 
     $('#boop-form').submit(function(event){
         event.preventDefault();
+        var number = $('input#boop').val();
+        console.log(number);
 
         
     });
