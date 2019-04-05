@@ -4,8 +4,9 @@ html, body {
     background-image: linear-gradient(to right top, #3d35ed, #1c3ad5, #003bbc, #003aa1, #003786, #26367b, #333670, #3b3765, #4e3d66, #5d4367, #694b68, #74536a);
     background-size: cover;
     background-repeat: no-repeat;
+    color:white;
 }
-.boop {
+.output-text {
     display: none;
 }
 
@@ -18,3 +19,32 @@ html, body {
     text-align: center;
     margin-left: 25%;
 }
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.527);
+    
+}
+
+.navbar-brand{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+.boop-container {
+    margin-top: 35px;
+}
+
+.output-text {
+    margin-top: 35px;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgba(0, 255, 255, 0.192)
+}
+

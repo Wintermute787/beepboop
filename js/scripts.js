@@ -43,6 +43,6 @@ $(function () {
         beepBoop(number);
         $("#boop-text").text(beepBoop(number));
 
-        $('.boop').show('slow');
+        $('.output-text').show('slow');
     });
 });
