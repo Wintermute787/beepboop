@@ -24,8 +24,6 @@ $(function () {
         return strArr;
     }                           
 
-    
-
 
 
     // var strArr = [];
